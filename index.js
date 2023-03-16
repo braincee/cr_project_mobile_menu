@@ -9,7 +9,7 @@ function showMenu() {
 menuBars.addEventListener('click', showMenu);
 
 function closeModal() {
-  modalContainer.style.display = 'none';
+  modalContainer.style.display = 'block';
 }
 
 window.onclick = function global(event) {
